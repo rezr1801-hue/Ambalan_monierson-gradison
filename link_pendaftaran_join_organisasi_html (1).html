@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pendaftaran Ambalan Monierson-Gradison</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #07120c, #14532d, #000000);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: white;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 500px;
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #d1d5db;
+    }
+
+    .input-group {
+      margin-bottom: 18px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background: rgba(255,255,255,0.15);
+      color: white;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #d1d5db;
+    }
+
+    select option {
+      color: black;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      background: #22c55e;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #16a34a;
+      transform: scale(1.02);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #d1d5db;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Pramuka.svg" alt="Logo Pramuka" style="width:90px; display:block; margin:0 auto 15px;">
+    <h1>Ambalan Monierson–Gradison</h1>
+    <p>Gudep 11.043–11.044 SMKN 1 Majalengka<br>Isi formulir di bawah untuk bergabung bersama kami!</p>
+
+    <form action="https://formsubmit.co/youremail@gmail.com" method="POST">
+      <div class="input-group">
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama lengkap" required>
+      </div>
+
+      <div class="input-group">
+        <label>Kelas / Jurusan</label>
+        <input type="text" placeholder="Contoh: XI TKJ 1" required>
+      </div>
+
+      <div class="input-group">
+        <label>Nomor WhatsApp</label>
+        <input type="tel" placeholder="08xxxxxxxxxx" required>
+      </div>
+
+      <div class="input-group">
+        <label>Alasan Bergabung</label>
+        <textarea rows="4" placeholder="Tulis alasan kamu ingin bergabung"></textarea>
+      </div>
+
+      <div class="input-group">
+        <label>Minat Bidang</label>
+        <select>
+          <option>Keorganisasian</option>
+          <option>Kepemimpinan</option>
+          <option>Desain & Media</option>
+          <option>Acara & Kegiatan</option>
+        </select>
+      </div>
+
+      <button type="submit">Daftar Sekarang</button>
+
+      <a href="https://chat.whatsapp.com/" target="_blank" style="display:block; text-align:center; margin-top:15px; text-decoration:none; background:#25D366; padding:14px; border-radius:10px; color:white; font-weight:bold;">Join Grup WhatsApp</a>
+    </form>
+
+    <div class="footer">
+      © 2026 Ambalan Monierson–Gradison | Gudep 11.043–11.044 SMKN 1 Majalengka
+    </div>
+  </div>
+</body>
+</html>
